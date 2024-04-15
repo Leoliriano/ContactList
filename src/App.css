@@ -1,0 +1,77 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  font-size: 2rem; /* larger font size for headings */
+}
+
+/* Table styling */
+table {
+  width: 90%;
+  max-width: 600px;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+th, td {
+  padding: 15px 20px; /* increased padding for better readability */
+  text-align: left;
+  border-bottom: 1px solid #dddddd;
+  font-size: 1.2rem; /* larger font size for table data */
+}
+
+th {
+  background-color: #007BFF;
+  color: white;
+  letter-spacing: 0.5px;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #f1f1f1;
+}
+
+thead tr {
+  height: 60px;
+}
+
+tbody tr {
+  height: 50px;
+  cursor: pointer;
+}
+
+/* Button styling */
+button {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 1.1rem; /* larger font size for buttons */
+}
+
+button:hover {
+  background-color: #0056b3;
+}
